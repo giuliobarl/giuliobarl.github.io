@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://giuliobarletta.github.io" 
+title: Giulio Barletta
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -27,11 +27,17 @@ menu:
           weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "Hi! I am **Giulio** a Ph.D. student in Energetics at Politecnico di Torino, deeply engaged in the fascinating intersection of artificial intelligence and materials science. My research revolves around applying AI techniques to discover and optimize advanced materials for energy applications, with a particular focus on perovskites for photovoltaics — pioneering materials that hold the promise of revolutionizing solar energy.
+
+    My journey began in energy engineering, but along the way, I developed a profound passion for materials science and the elegance of mathematical models. This passion drives my work today, where I merge computational intelligence with scientific curiosity to contribute to a more sustainable energy future.
+
+    Beyond the lab and algorithms, I am a romantic at heart, finding joy in the arts. I cherish the power of music, both as a listener and a musician, and I lose myself in the pages of novels that explore the depths of human experience. This blend of science and creativity fuels my perspective and keeps me inspired in everything I do.
+
+    Thank you for visiting — let's connect and share ideas!"
+    author: Giulio Barletta
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -52,7 +58,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
+          title: Giulio Barletta
           subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
           imageUrl: "picture.jpeg"
           imageWidth: 160
