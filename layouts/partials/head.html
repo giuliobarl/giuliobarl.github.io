@@ -79,9 +79,11 @@
 
 {{- /* Favicons */}}
 <link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ site.Params.assets.favicon16x16 | default "favicon-16x16.png" | absURL }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
-<link rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
+<link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+<link rel="shortcut icon" href="/static/favicon.ico?v=2" />
+<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+<link rel="manifest" href="/static/site.webmanifest" />
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">
 <meta name="msapplication-TileColor" content="{{ site.Params.assets.msapplication_TileColor | default "#2e2e33" }}">
 
@@ -144,4 +146,3 @@
 {{ if or .Page.Params.math .Site.Params.math }}
 {{- partial "math.html" .}}
 {{ end }} 
-

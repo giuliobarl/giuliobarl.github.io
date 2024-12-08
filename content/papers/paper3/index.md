@@ -1,18 +1,18 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-lastmod: 2024-10-18
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
+title: "Thévenin’s Battery Model Parameter Estimation Based on Simulink" 
+date: 2022-08-26
+lastmod: 2022-08-26
+tags: ["Parameter Estimation", "Lithium-Ion Batteries (LIB)", "Battery Models", "Equivalent Circuit Model (ECM)"]
+author: ["Giulio Barletta", "Piera Di Prima", "Davide Papurello"]
+description: "This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell. Published in Energies, 2022." 
+summary: "This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell." 
 cover:
-    image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
+    image: "model.png"
+    alt: "Simulation model."
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
+    URL: "https://www.mdpi.com/1996-1073/15/17/6207"
+    Text: "Energies"
 
 ---
 
@@ -20,34 +20,37 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/recession-indicator)
++ [Paper](batteries.pdf)
 
 ---
 
 ##### Abstract
 
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
+Lithium-ion batteries (LIB) proved over time to be one of the best choices among rechargeable batteries. Their small size, high energy density, long life, and low maintenance need make them a prominent candidate for the role of the most widespread energy storage system. They have the potential to monopolize the green technology sector. An accurate definition of the parameters defining the behaviour of the battery in different operating conditions is thus essential, as their knowledge proves crucial in certain fields such as those that involve electric vehicles. This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell. Experimental data obtained through constant current charge/discharge cycles are analysed through a Simulink model, and results are obtained as a function of the state of charge (SOC) for a fixed and controlled temperature value. The results achieved with the proposed model can monitor the salient parameters of the equivalent circuit with an error between 7 and 10%.
+
+---
+
+##### Figure 2: Simulation model for the second order RC circuit.
+
+![](model.png)
 
 ---
 
 ##### Citation
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
+Barletta, G.; DiPrima, P.; Papurello, D. Thévenin’s Battery Model Parameter Estimation Based on Simulink. Energies 2022, 15, 6207. https://doi.org/10.3390/en15176207
 
 ```BibTeX
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
+@Article{en15176207,
+AUTHOR = {Barletta, Giulio and DiPrima, Piera and Papurello, Davide},
+TITLE = {Thévenin’s Battery Model Parameter Estimation Based on Simulink},
+JOURNAL = {Energies},
+VOLUME = {15},
+YEAR = {2022},
+NUMBER = {17},
+ARTICLE-NUMBER = {6207},
+URL = {https://www.mdpi.com/1996-1073/15/17/6207},
+ISSN = {1996-1073},
+DOI = {10.3390/en15176207}
+}
 ```
-
----
-
-##### Related material
-
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)

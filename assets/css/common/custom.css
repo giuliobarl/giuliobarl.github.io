@@ -1,0 +1,96 @@
+/* General link styles */
+a {
+    color: #0800ff; /* Set your preferred color */
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.2s ease, text-decoration 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover state for links */
+a:hover {
+    color: #070376; /* Darker shade for hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+body.dark a {
+    color: #82fefa; /* Set your preferred color */
+    text-decoration: none; /* Remove the default underline */
+    transition: color 0.2s ease, text-decoration 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover state for links */
+body.dark a:hover {
+    color: #82fefa6d; /* Darker shade for hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* styles.css */
+body {
+    font-size: 24px; /* Adjusts the default font size */
+}
+
+h1 {
+    font-size: 2.5em;  /* Larger font size for h1 headings */
+}
+
+h2 {
+    font-size: 2em;    /* Font size for h2 headings */
+}
+
+h3 {
+    font-size: 1.75em;  /* Font size for h3 headings */
+}
+
+p {
+    font-size: 1.25em; /* Font size for paragraphs */
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.moving-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #a8fffccc, #aefffccc, #b5fffccc, #bcfffccc, #c3fffdcc, #cafffdcc, #d1fffd, #d8fffd, #dffffe);
+    background-size: 400% 400%;
+    z-index: -1;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+body.dark .moving-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #0401a35d, #0802905e, #0d03803f, #12046b60, #17065962, #1806575f, #1a065a5c, #1b06594b, #1d065356);
+    background-size: 400% 400%;
+    z-index: -1;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.extra-text {
+    font-size: 48px;
+    color: #696969;
+    font-family: 'Rochester', cursive, sans-serif;
+    margin-top: 10px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 50px;
+  }

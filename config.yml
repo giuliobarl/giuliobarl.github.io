@@ -10,36 +10,24 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Publications
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Projects
+          url: projects/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Keywords
+          url: tags/
+          weight: 5
 
 params:
-    description: "Hi! I am **Giulio** a Ph.D. student in Energetics at Politecnico di Torino, deeply engaged in the fascinating intersection of artificial intelligence and materials science. My research revolves around applying AI techniques to discover and optimize advanced materials for energy applications, with a particular focus on perovskites for photovoltaics — pioneering materials that hold the promise of revolutionizing solar energy.
-
-    My journey began in energy engineering, but along the way, I developed a profound passion for materials science and the elegance of mathematical models. This passion drives my work today, where I merge computational intelligence with scientific curiosity to contribute to a more sustainable energy future.
-
-    Beyond the lab and algorithms, I am a romantic at heart, finding joy in the arts. I cherish the power of music, both as a listener and a musician, and I lose myself in the pages of novels that explore the depths of human experience. This blend of science and creativity fuels my perspective and keeps me inspired in everything I do.
-
-    Thank you for visiting — let's connect and share ideas!"
+    description: "I am Giulio, a Ph.D. student in Energetics at Politecnico di Torino, deeply engaged in the intersection of artificial intelligence and materials science."
     author: Giulio Barletta
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: dark
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -48,7 +36,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers","projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -59,47 +47,42 @@ params:
     profileMode:
           enabled: true
           title: Giulio Barletta
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          subtitle: | 
+            Hi! I am **Giulio** 👋🏻
+
+            I am a Ph.D. student in Energetics at [Politecnico di Torino](https://www.polito.it/), deeply engaged in the fascinating intersection of [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) and materials science 🔬🖥️. My research revolves around applying AI techniques to discover and optimize advanced materials for energy applications, with a particular focus on [perovskites](https://en.wikipedia.org/wiki/Perovskite_(structure)) for photovoltaics — pioneering materials that hold the promise of revolutionizing solar energy ☀️.
+
+            My journey began in energy engineering, but along the way, I developed a profound passion for materials science and the elegance of mathematical models. This passion drives my work today, where I merge computational intelligence with scientific curiosity to contribute to a more sustainable energy future.
+
+            Beyond the lab and algorithms, I am a romantic at heart, finding joy in the arts. I cherish the power of music 🎵, both as a listener and a musician, lose myself in the pages of novels that explore the depths of human experience 📖, and find inspiration in the beauty of visual art, particularly paintings 🖌️. This blend of science and creativity fuels my perspective and keeps me inspired in everything I do.
+            
+            Thank you for visiting — let's connect and share ideas!🫱🏻‍🫲🏾🚀
+          extraText: |
+            <div class="extra-text">
+              "It is a funny thing about life - if you refuse to accept anything but the best you very often get it."
+              
+              W. Somerset Maugham
+            </div>
+          imageUrl: "me.jpg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Papers
+          buttons: 
+            - name: Publications
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Projects
+              url: projects/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:giulio.barletta@polito.it
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=CaIXqogAAAAJ&hl=it
+        - name: ORCID
+          url: https://orcid.org/0009-0007-9112-3186
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/giuliobarl
 
     assets:
         disableScrollBarStyle: true
@@ -107,9 +90,10 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "Giulio Barletta"
+      icon: "perovskite.svg"
       iconHeight: 18
+    customCSS: ["css/custom.css"]
 
 markup:
     goldmark:

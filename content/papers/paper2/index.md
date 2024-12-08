@@ -1,18 +1,18 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Learning Effective Good Variables from Physical Data" 
+date: 2024-07-12
+lastmod: 2024-07-18
+tags: ["Machine Learning", "Primitive Variable Analysis", "Physical Property Invariance", "Feature Grouping"]
+author: ["Giulio Barletta", "Giovanni Trezza", "Eliodoro Chiavazzo"]
+description: "This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables. Published in Machine Learning and Knowledge Extraction, 2024." 
+summary: "This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables." 
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: "paper2.webp"
+    alt: "Feature grouping protocol"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://www.mdpi.com/2504-4990/6/3/77"
+    Text: "Machine Learning and Knowledge Extraction"
 
 ---
 
@@ -20,43 +20,39 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
++ [Paper](effective-good.pdf)
++ [Code](https://github.com/giuliobarl/GoodPhysVariables)
++ [Data](https://zenodo.org/records/11639037)
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We assume that a sufficiently large database is available, where a physical property of interest and a number of associated ruling primitive variables or observables are stored. We introduce and test two machine learning approaches to discover possible groups or combinations of primitive variables, regardless of data origin, being it numerical or experimental: the first approach is based on regression models, whereas the second on classification models. The variable group (here referred to as the new effective good variable) can be considered as successfully found when the physical property of interest is characterized by the following effective invariant behavior: in the first method, invariance of the group implies invariance of the property up to a given accuracy; in the other method, upon partition of the physical property values into two or more classes, invariance of the group implies invariance of the class. For the sake of illustration, the two methods are successfully applied to two popular empirical correlations describing the convective heat transfer phenomenon and to the Newton’s law of universal gravitation.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+##### Figure 1: Overview of the protocol used to detect possible symmetries of a target property of interest with respect to its input variables.
 
-![](paper2.png)
+![](paper2.webp)
 
 ---
 
 ##### Citation
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+Barletta, G.; Trezza, G.; Chiavazzo, E. Learning Effective Good Variables from Physical Data. Mach. Learn. Knowl. Extr. 2024, 6, 1597-1618. https://doi.org/10.3390/make6030077
 
 ```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
+@Article{make6030077,
+AUTHOR = {Barletta, Giulio and Trezza, Giovanni and Chiavazzo, Eliodoro},
+TITLE = {Learning Effective Good Variables from Physical Data},
+JOURNAL = {Machine Learning and Knowledge Extraction},
+VOLUME = {6},
+YEAR = {2024},
+NUMBER = {3},
+PAGES = {1597--1618},
+URL = {https://www.mdpi.com/2504-4990/6/3/77},
+ISSN = {2504-4990},
+DOI = {10.3390/make6030077}
+}
 ```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)

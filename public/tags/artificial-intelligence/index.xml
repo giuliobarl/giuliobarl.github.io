@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Artificial Intelligence on Giulio Barletta</title>
+    <link>http://localhost:1313/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on Giulio Barletta</description>
+    <generator>Hugo -- 0.139.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Energy-GNoME: A Living Database of Selected Materials for Energy Applications</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>This paper presents the novel Energy-GNoME database and the related protocol. Preprint published on arXiv, 2024.</description>
+    </item>
+  </channel>
+</rss>
