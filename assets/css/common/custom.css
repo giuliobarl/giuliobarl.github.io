@@ -93,4 +93,17 @@ body.dark .moving-background {
     line-height: 1.6;
     text-align: center;
     margin: 0 50px;
-  }
+}
+
+/* Styles for screens smaller than 600px (common for phones) */
+@media (max-width: 600px) {
+    .extra-text {
+        font-size: 48px;
+        color: #696969;
+        font-family: 'Rochester', cursive, sans-serif;
+        margin-top: 10px;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0 10px;
+    }
+}
