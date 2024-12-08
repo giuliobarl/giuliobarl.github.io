@@ -77,6 +77,8 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:giulio.barletta@polito.it
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/giulio-barletta-energy-engineer/
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=CaIXqogAAAAJ&hl=it
         - name: ORCID
