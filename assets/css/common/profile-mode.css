@@ -46,3 +46,7 @@
 .button:hover {
     background: var(--lightcolor);
 }
+
+body.dark .button:hover {
+    background: var(--darkcolor);
+}
