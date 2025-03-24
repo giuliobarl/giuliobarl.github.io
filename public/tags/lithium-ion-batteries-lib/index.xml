@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/lithium-ion-batteries-lib/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thévenin’s Battery Model Parameter Estimation Based on Simulink</title>
-      <link>http://localhost:1313/papers/paper3/</link>
+      <link>http://localhost:1313/papers/libs/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper3/</guid>
+      <guid>http://localhost:1313/papers/libs/</guid>
       <description>This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell. Published in Energies, 2022.</description>
     </item>
   </channel>

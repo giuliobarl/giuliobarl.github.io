@@ -6,27 +6,34 @@
     <description>Recent content in Papers on Giulio Barletta</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane</title>
+      <link>http://localhost:1313/papers/ml-awh/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/ml-awh/</guid>
+      <description>This paper presents a novel Ion Deposition Membrane-based approach to atmospheric water harvesting, leveraging machine learning to predict water yields under various environmental conditions. Published in Journal of Water Process Engineering, 2025.</description>
+    </item>
+    <item>
       <title>Energy-GNoME: A Living Database of Selected Materials for Energy Applications</title>
-      <link>http://localhost:1313/papers/paper1/</link>
+      <link>http://localhost:1313/papers/energy-gnome/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper1/</guid>
+      <guid>http://localhost:1313/papers/energy-gnome/</guid>
       <description>This paper presents the novel Energy-GNoME database and the related protocol. Preprint published on arXiv, 2024.</description>
     </item>
     <item>
       <title>Learning Effective Good Variables from Physical Data</title>
-      <link>http://localhost:1313/papers/paper2/</link>
+      <link>http://localhost:1313/papers/good-phys-variables/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper2/</guid>
+      <guid>http://localhost:1313/papers/good-phys-variables/</guid>
       <description>This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables. Published in Machine Learning and Knowledge Extraction, 2024.</description>
     </item>
     <item>
       <title>Thévenin’s Battery Model Parameter Estimation Based on Simulink</title>
-      <link>http://localhost:1313/papers/paper3/</link>
+      <link>http://localhost:1313/papers/libs/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper3/</guid>
+      <guid>http://localhost:1313/papers/libs/</guid>
       <description>This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell. Published in Energies, 2022.</description>
     </item>
   </channel>

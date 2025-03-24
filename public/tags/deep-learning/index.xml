@@ -6,13 +6,20 @@
     <description>Recent content in Deep Learning on Giulio Barletta</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Energy-GNoME</title>
+      <link>http://localhost:1313/projects/energy-gnome/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/energy-gnome/</guid>
+      <description>This repository contains the database, documentation, Python library (coming soon), and notebooks used to build the Energy-GNoME database.</description>
+    </item>
+    <item>
       <title>Energy-GNoME: A Living Database of Selected Materials for Energy Applications</title>
-      <link>http://localhost:1313/papers/paper1/</link>
+      <link>http://localhost:1313/papers/energy-gnome/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/paper1/</guid>
+      <guid>http://localhost:1313/papers/energy-gnome/</guid>
       <description>This paper presents the novel Energy-GNoME database and the related protocol. Preprint published on arXiv, 2024.</description>
     </item>
   </channel>
