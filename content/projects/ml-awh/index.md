@@ -3,7 +3,7 @@ title: "MLWaterHarvest"
 date: 2025-03-23
 lastmod: 2025-03-23
 tags: ["Machine Learning", "Atmospheric Water Harvesting"]
-author: ["Giulio Barletta", "Shashwata Moitra", "Sybil Derrible", "Alex Mathew", "Anoop Muraleedharan Nair", "Constantine M. Megaridis"]
+author: ["Giulio Barletta"]
 description: "This repository contains the database and notebooks related to the publication Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane" 
 summary: "This repository contains the database and notebooks related to the publication Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane"  
 cover:
