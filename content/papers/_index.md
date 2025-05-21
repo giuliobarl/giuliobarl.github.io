@@ -1,4 +1,4 @@
 ---
 title: "Papers"
-description: "Preprints and articles by Giulio Barletta."
+description: "Articles and preprints by Giulio Barletta."
 ---

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Notes on Quantum Computing for Thermal Science | Giulio Barletta</title>
+<meta name="keywords" content="quantum computing, thermal science, heat conduction, variational quantum algorithm, quantum circuit ansatz, real data loading / encoding">
+<meta name="description" content="This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025.">
+<meta name="author" content="Pietro Asinari,&thinsp;Nada Alghamdi,&thinsp;Paolo De Angelis,&thinsp;Giulio Barletta,&thinsp;Giovanni Trezza,&thinsp;Marina Provenzano,&thinsp;Matteo Maria Piredda,&thinsp;Matteo Fasano,&thinsp;Eliodoro Chiavazzo">
+<link rel="canonical" href="http://localhost:1313/papers/quantherm/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.05533aef3f2f738ba03da860efdc7b311ec1335c65a5af50f2f465cc2a0c6ba1.css" integrity="sha256-BVM67z8vc4ugPahg79x7MR7BM1xlpa9Q8vRlzCoMa6E=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+<link rel="shortcut icon" href="/static/favicon.ico?v=2" />
+<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+<link rel="manifest" href="/static/site.webmanifest" />
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/papers/quantherm/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Notes on Quantum Computing for Thermal Science" />
+<meta property="og:description" content="This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/papers/quantherm/" />
+<meta property="og:image" content="http://localhost:1313/quantherm.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2025-03-24T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-05-13T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/quantherm.png" />
+<meta name="twitter:title" content="Notes on Quantum Computing for Thermal Science"/>
+<meta name="twitter:description" content="This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Papers",
+      "item": "http://localhost:1313/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Notes on Quantum Computing for Thermal Science",
+      "item": "http://localhost:1313/papers/quantherm/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Notes on Quantum Computing for Thermal Science",
+  "name": "Notes on Quantum Computing for Thermal Science",
+  "description": "This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025.",
+  "keywords": [
+    "quantum computing", "thermal science", "heat conduction", "variational quantum algorithm", "quantum circuit ansatz", "real data loading / encoding"
+  ],
+  "articleBody": " Download Paper Abstract This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Conceived as a living document, it will be continuously updated with experimental findings and insights for the research community in Thermal Science. By experiments, we refer both to the search for the most effective algorithms and to the performance of real quantum hardware. Those fields are currently evolving rapidly, driving a technological race to define the best architectures. The development of novel algorithms for engineering problems aims at harnessing the unique strengths of quantum computing. Expectations are high, as users seek concrete evidence of quantum supremacy – a true game changer for engineering applications. Among all heat transfer mechanisms (conduction, convection, radiation), we start with conduction as a paradigmatic test case in the field being characterized by a rich mathematical foundation for our investigations.\nFigure 1: Efficient ansatz (3 qubit, 24 parameters = four layers with six parameters each or, equivalently, eight parameters per qubit). Citation Asinari, P.; Alghamdi, N.; De Angelis, P.; Barletta, G.; Trezza, G.; Provenzano, M.; Piredda, M. M.; Fasano, M.; Chiavazzo, E “Notes on Quantum Computing for Thermal Science”. arXiv May 13, 2025. https://doi.org/10.48550/arXiv.2503.19109.\n@misc{asinari_notes_2025, title = {Notes on {Quantum} {Computing} for {Thermal} {Science}}, url = {http://arxiv.org/abs/2503.19109}, doi = {10.48550/arXiv.2503.19109}, urldate = {2025-05-14}, publisher = {arXiv}, author = {Asinari, Pietro and Alghamdi, Nada and Angelis, Paolo De and Barletta, Giulio and Trezza, Giovanni and Provenzano, Marina and Piredda, Matteo Maria and Fasano, Matteo and Chiavazzo, Eliodoro}, month = may, year = {2025}, note = {arXiv:2503.19109}, keywords = {Physics - Computational Physics, Quantum Physics}, } ",
+  "wordCount" : "281",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/quantherm.png","datePublished": "2025-03-24T00:00:00Z",
+  "dateModified": "2025-05-13T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Pietro Asinari"
+  }, {
+    "@type": "Person",
+    "name": "Nada Alghamdi"
+  }, {
+    "@type": "Person",
+    "name": "Paolo De Angelis"
+  }, {
+    "@type": "Person",
+    "name": "Giulio Barletta"
+  }, {
+    "@type": "Person",
+    "name": "Giovanni Trezza"
+  }, {
+    "@type": "Person",
+    "name": "Marina Provenzano"
+  }, {
+    "@type": "Person",
+    "name": "Matteo Maria Piredda"
+  }, {
+    "@type": "Person",
+    "name": "Matteo Fasano"
+  }, {
+    "@type": "Person",
+    "name": "Eliodoro Chiavazzo"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/papers/quantherm/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Giulio Barletta",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="q-WCtfLzmcLgrn8SRij7Zh-RsG9kLboxWFtsq5YhCG8" />
+</head>
+
+<body class=" dark" id="top">
+
+    <div class="moving-background"></div>
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Giulio Barletta">
+                <img src="http://localhost:1313/perovskite.svg" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Giulio Barletta</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Keywords">
+                    <span>Keywords</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Notes on Quantum Computing for Thermal Science
+    </h1>
+    <div class="post-meta"><span title='2025-03-24 00:00:00 +0000 UTC'>March 2025</span>&nbsp;&middot;&nbsp;Pietro Asinari,&thinsp;Nada Alghamdi,&thinsp;Paolo De Angelis,&thinsp;Giulio Barletta,&thinsp;Giovanni Trezza,&thinsp;Marina Provenzano,&thinsp;Matteo Maria Piredda,&thinsp;Matteo Fasano,&thinsp;Eliodoro Chiavazzo&nbsp;&middot;&nbsp;<a href="https://arxiv.org/abs/2503.19109" rel="noopener noreferrer" target="_blank">arXiv</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="QuanTherm.pdf">Paper</a></li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Conceived as a living document, it will be continuously updated with experimental findings and insights for the research community in Thermal Science. By experiments, we refer both to the search for the most effective algorithms and to the performance of real quantum hardware. Those fields are currently evolving rapidly, driving a technological race to define the best architectures. The development of novel algorithms
+for engineering problems aims at harnessing the unique strengths of quantum computing. Expectations are high, as users seek concrete evidence of quantum supremacy – a true game changer for engineering applications. Among all heat transfer mechanisms (conduction, convection, radiation), we start with conduction as a paradigmatic test case in the field being characterized by a rich mathematical foundation for our investigations.</p>
+<hr>
+<h5 id="figure-1-efficient-ansatz-3-qubit-24-parameters--four-layers-with-six-parameters-each-or-equivalently-eight-parameters-per-qubit">Figure 1: Efficient ansatz (3 qubit, 24 parameters = four layers with six parameters each or, equivalently, eight parameters per qubit).</h5>
+<p><img loading="lazy" src="ansatz.png" alt=""  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Asinari, P.; Alghamdi, N.; De Angelis, P.; Barletta, G.; Trezza, G.; Provenzano, M.; Piredda, M. M.; Fasano, M.; Chiavazzo, E &ldquo;Notes on Quantum Computing for Thermal Science&rdquo;. arXiv May 13, 2025. <a href="https://doi.org/10.48550/arXiv.2503.19109" target="_blank">https://doi.org/10.48550/arXiv.2503.19109</a>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@misc</span>{asinari_notes_2025,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">title</span> = <span style="color:#a50">{Notes on {Quantum} {Computing} for {Thermal} {Science}}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">url</span> = <span style="color:#a50">{http://arxiv.org/abs/2503.19109}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">doi</span> = <span style="color:#a50">{10.48550/arXiv.2503.19109}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">urldate</span> = <span style="color:#a50">{2025-05-14}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">publisher</span> = <span style="color:#a50">{arXiv}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">author</span> = <span style="color:#a50">{Asinari, Pietro and Alghamdi, Nada and Angelis, Paolo De and Barletta, Giulio and Trezza, Giovanni and Provenzano, Marina and Piredda, Matteo Maria and Fasano, Matteo and Chiavazzo, Eliodoro}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">month</span> = <span style="color:#a00">may</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">year</span> = <span style="color:#a50">{2025}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">note</span> = <span style="color:#a50">{arXiv:2503.19109}</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#1e90ff">keywords</span> = <span style="color:#a50">{Physics - Computational Physics, Quantum Physics}</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/quantum-computing/">Quantum Computing</a></li>
+      <li><a href="http://localhost:1313/tags/thermal-science/">Thermal Science</a></li>
+      <li><a href="http://localhost:1313/tags/heat-conduction/">Heat Conduction</a></li>
+      <li><a href="http://localhost:1313/tags/variational-quantum-algorithm/">Variational Quantum Algorithm</a></li>
+      <li><a href="http://localhost:1313/tags/quantum-circuit-ansatz/">Quantum Circuit Ansatz</a></li>
+      <li><a href="http://localhost:1313/tags/real-data-loading-/-encoding/">Real Data Loading / Encoding</a></li>
+    </ul>
+  </footer>
+</article>
+
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="http://localhost:1313/">Giulio Barletta</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>

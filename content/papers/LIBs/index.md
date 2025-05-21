@@ -7,8 +7,8 @@ author: ["Giulio Barletta", "Piera Di Prima", "Davide Papurello"]
 description: "This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell. Published in Energies, 2022." 
 summary: "This paper proposes the estimation of the values of the parameters of the Thévenin equivalent circuit of a LIB commercial cell." 
 cover:
-    image: "model.png"
-    alt: "Simulation model."
+    image: "lib.png"
+    alt: "Li-Ion Battery."
     relative: false
 editPost:
     URL: "https://www.mdpi.com/1996-1073/15/17/6207"

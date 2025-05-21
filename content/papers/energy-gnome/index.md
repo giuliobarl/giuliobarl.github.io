@@ -7,7 +7,7 @@ author: ["Paolo De Angelis","Giovanni Trezza", "Giulio Barletta", "Pietro Asinar
 description: "This paper presents the novel Energy-GNoME database and the related protocol. Preprint published on arXiv, 2024." 
 summary: "This paper presents the novel Energy-GNoME database and the related protocol." 
 cover:
-    image: "egnome.png"
+    image: "illustration-light.png"
     alt: "Energy-GNoME"
     relative: false
 editPost:
@@ -39,7 +39,7 @@ Artificial Intelligence (AI) in materials science is driving significant advance
 
 ##### Citation
 
-De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". arXiv November 15, 2024. doi: 10.48550/arXiv.2411.10125.
+De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". arXiv November 15, 2024. https://doi.org/10.48550/arXiv.2411.10125.
 
 ```BibTeX
 @misc{deangelis_energy-gnome:_2024,

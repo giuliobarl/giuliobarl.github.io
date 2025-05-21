@@ -6,8 +6,15 @@
     <description>Recent content in Papers on Giulio Barletta</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Quantum Computing for Thermal Science</title>
+      <link>http://localhost:1313/papers/quantherm/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/quantherm/</guid>
+      <description>This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025.</description>
+    </item>
     <item>
       <title>Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane</title>
       <link>http://localhost:1313/papers/ml-awh/</link>

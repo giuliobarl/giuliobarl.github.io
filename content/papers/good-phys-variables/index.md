@@ -7,7 +7,7 @@ author: ["Giulio Barletta", "Giovanni Trezza", "Eliodoro Chiavazzo"]
 description: "This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables. Published in Machine Learning and Knowledge Extraction, 2024." 
 summary: "This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables." 
 cover:
-    image: "good_vars.webp"
+    image: "goodphysvars.png"
     alt: "Feature grouping protocol"
     relative: false
 editPost:

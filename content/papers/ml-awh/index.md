@@ -7,8 +7,8 @@ author: ["Giulio Barletta", "Shashwata Moitra", "Sybil Derrible", "Alex Mathew",
 description: "This paper presents a novel Ion Deposition Membrane-based approach to atmospheric water harvesting, leveraging machine learning to predict water yields under various environmental conditions. Published in Journal of Water Process Engineering, 2025." 
 summary: "This paper presents a novel Ion Deposition Membrane-based approach to atmospheric water harvesting, leveraging machine learning to predict water yields under various environmental conditions." 
 cover:
-    image: "ml_awh.png"
-    alt: "Experimental protocol"
+    image: "awh.png"
+    alt: "Atmospheric water harvesting"
     relative: false
 editPost:
     URL: "https://www.sciencedirect.com/science/article/pii/S2214714425005483"

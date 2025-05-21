@@ -6,8 +6,22 @@
     <description>Recent content in Machine Learning on Giulio Barletta</description>
     <generator>Hugo -- 0.139.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane</title>
+      <link>http://localhost:1313/papers/ml-awh/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/ml-awh/</guid>
+      <description>This paper presents a novel Ion Deposition Membrane-based approach to atmospheric water harvesting, leveraging machine learning to predict water yields under various environmental conditions. Published in Journal of Water Process Engineering, 2025.</description>
+    </item>
+    <item>
+      <title>MLWaterHarvest</title>
+      <link>http://localhost:1313/projects/ml-awh/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ml-awh/</guid>
+      <description>This repository contains the database and notebooks related to the publication Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane</description>
+    </item>
     <item>
       <title>Energy-GNoME</title>
       <link>http://localhost:1313/projects/energy-gnome/</link>

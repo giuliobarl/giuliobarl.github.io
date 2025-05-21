@@ -1,18 +1,18 @@
 /* General link styles */
 a {
-    color: #0800ff; /* Set your preferred color */
+    color: #130e94; /* Set your preferred color */
     text-decoration: none; /* Remove the default underline */
     transition: color 0.2s ease, text-decoration 0.2s ease; /* Smooth transitions */
 }
 
 /* Hover state for links */
 a:hover {
-    color: #070376; /* Darker shade for hover */
+    color: #06044e; /* Darker shade for hover */
     text-decoration: underline; /* Add underline on hover */
 }
 
 body.dark a {
-    color: #82fefa; /* Set your preferred color */
+    color: #adfaf7; /* Set your preferred color */
     text-decoration: none; /* Remove the default underline */
     transition: color 0.2s ease, text-decoration 0.2s ease; /* Smooth transitions */
 }
@@ -26,6 +26,7 @@ body.dark a:hover {
 /* styles.css */
 body {
     font-size: 24px; /* Adjusts the default font size */
+    background-color: var(--theme);
 }
 
 h1 {
@@ -49,7 +50,7 @@ body {
     overflow: hidden;
 }
 
-.moving-background {
+/* .moving-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -59,9 +60,9 @@ body {
     background-size: 400% 400%;
     z-index: -1;
     animation: gradientAnimation 10s ease infinite;
-}
+} */
 
-body.dark .moving-background {
+/* body.dark .moving-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -71,7 +72,7 @@ body.dark .moving-background {
     background-size: 400% 400%;
     z-index: -1;
     animation: gradientAnimation 10s ease infinite;
-}
+} */
 
 @keyframes gradientAnimation {
     0% {
@@ -106,4 +107,8 @@ body.dark .moving-background {
         text-align: center;
         margin: 0 10px;
     }
+}
+
+.list, .entry {
+    background-color: var(--theme);
 }

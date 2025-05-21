@@ -13,7 +13,14 @@
       <link>http://localhost:1313/papers/ml-awh/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/papers/ml-awh/</guid>
-      <description>This paper presents two novel approaches to the discovery of possible groups or combinations of primitive variables. Published in Machine Learning and Knowledge Extraction, 2024.</description>
+      <description>This paper presents a novel Ion Deposition Membrane-based approach to atmospheric water harvesting, leveraging machine learning to predict water yields under various environmental conditions. Published in Journal of Water Process Engineering, 2025.</description>
+    </item>
+    <item>
+      <title>MLWaterHarvest</title>
+      <link>http://localhost:1313/projects/ml-awh/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ml-awh/</guid>
+      <description>This repository contains the database and notebooks related to the publication Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane</description>
     </item>
   </channel>
 </rss>
