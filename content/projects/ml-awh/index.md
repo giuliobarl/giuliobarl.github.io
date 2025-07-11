@@ -37,7 +37,7 @@ In particular:
 
 ---
 
-##### Overview of the protocol for creating the Energy-GNoME database.
+##### Overview of the protocol for training the ML models.
 
 ![](ml_awh.png)
 
