@@ -1,26 +1,26 @@
 ---
 title: "Energy-GNoME: A Living Database of Selected Materials for Energy Applications" 
-date: 2024-11-15
-lastmod: 2024-11-15
-tags: ["Advanced Materials", "Energy Materials", "Materials Science", "Artificial Intelligence", "Machine Learning", "Deep Learning", "Computational Chemistry", "Dataset", "Thermoelectric", "Battery", "Perovskite"]
-author: ["Paolo De Angelis","Giovanni Trezza", "Giulio Barletta", "Pietro Asinari", "Eliodoro Chiavazzo"]
-description: "This paper presents the novel Energy-GNoME database and the related protocol. Preprint published on arXiv, 2024." 
+date: 2025-09-16
+lastmod: 2025-09-16
+tags: ["Energy Materials", "Artificial Intelligence", "Machine Learning", "Deep Learning", "Thermoelectric", "Battery", "Perovskite"]
+author: ["Paolo De Angelis", "Giulio Barletta", "Giovanni Trezza", "Pietro Asinari", "Eliodoro Chiavazzo"]
+description: "This paper presents the novel Energy-GNoME database and the related protocol. Published in Energy and AI, 2025." 
 summary: "This paper presents the novel Energy-GNoME database and the related protocol." 
 cover:
     image: "illustration-light.png"
     alt: "Energy-GNoME"
     relative: false
 editPost:
-    URL: "https://arxiv.org/abs/2411.10125"
-    Text: "arXiv"
+    URL: "https://doi.org/10.1016/j.egyai.2025.100605"
+    Text: "Energy and AI"
 
 ---
 
 ---
 
-##### Download
+##### Related
 
-+ [Paper](energy-gnome.pdf)
++ [Paper](https://doi.org/10.1016/j.egyai.2025.100605)
 + [Online interactive database](https://paolodeangelis.github.io/Energy-GNoME/)
 
 ---
@@ -39,20 +39,27 @@ Artificial Intelligence (AI) in materials science is driving significant advance
 
 ##### Citation
 
-De Angelis, P.; Trezza, G.; Barletta, G.; Asinari, P.; Chiavazzo, E. "Energy-GNoME: A Living Database of Selected Materials for Energy Applications". arXiv November 15, 2024. https://doi.org/10.48550/arXiv.2411.10125.
+Paolo De Angelis, Giulio Barletta, Giovanni Trezza, Pietro Asinari, Eliodoro Chiavazzo,
+Energy-GNoME: A living database of selected materials for energy applications,
+Energy and AI,
+Volume 22,
+2025,
+100605,
+ISSN 2666-5468,
+https://doi.org/10.1016/j.egyai.2025.100605.
 
 ```BibTeX
-@misc{deangelis_energy-gnome:_2024,
-    title = {Energy-{GNoME}: {A} {Living} {Database} of {Selected} {Materials} for {Energy} {Applications}},
-    shorttitle = {Energy-{GNoME}},
-    url = {http://arxiv.org/abs/2411.10125},
-    doi = {10.48550/arXiv.2411.10125},
-    urldate = {2024-12-03},
-    publisher = {arXiv},
-    author = {De Angelis, Paolo and Trezza, Giovanni and Barletta, Giulio and Asinari, Pietro and Chiavazzo, Eliodoro},
-    month = nov,
-    year = {2024},
-    note = {arXiv:2411.10125},
-    keywords = {Condensed Matter - Materials Science, Condensed Matter - Other Condensed Matter, Computer Science - Machine Learning},
+@article{DEANGELIS2025100605,
+    title = {Energy-GNoME: A living database of selected materials for energy applications},
+    journal = {Energy and AI},
+    volume = {22},
+    pages = {100605},
+    year = {2025},
+    issn = {2666-5468},
+    doi = {https://doi.org/10.1016/j.egyai.2025.100605},
+    url = {https://www.sciencedirect.com/science/article/pii/S2666546825001375},
+    author = {Paolo {De Angelis} and Giulio Barletta and Giovanni Trezza and Pietro Asinari and Eliodoro Chiavazzo},
+    keywords = {Energy materials, Artificial Intelligence, Machine Learning, Deep Learning, Thermoelectric, Battery, Perovskite},
+    abstract = {Artificial Intelligence (AI) in materials science is driving significant advancements in the discovery of advanced materials for energy applications. The recent GNoME protocol identifies over 380,000 novel stable crystals. From this, we identify over 38,500 materials with potential as energy materials forming the core of the Energy-GNoME database. Our unique combination of Machine Learning (ML) and Deep Learning (DL) tools mitigates cross-domain data bias using feature spaces, thus identifying potential candidates for thermoelectric materials, novel battery cathodes, and novel perovskites. First, classifiers with both structural and compositional features detect domains of applicability, where we expect enhanced reliability of regressors. Here, regressors are trained to predict key materials properties, like thermoelectric figure of merit (zT), band gap (Eg), and cathode voltage (ΔVc). This method significantly narrows the pool of potential candidates, serving as an efficient guide for experimental and computational chemistry investigations and accelerating the discovery of materials suited for electricity generation, energy storage and conversion.}
 }
 ```
