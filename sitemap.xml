@@ -1,167 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 
-
 <url>
-  <loc>https://giuliobarl.github.io/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://giuliobarl.github.io/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/cv.pdf</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://giuliobarl.github.io/cv.pdf</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://giuliobarl.github.io/papers/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/projects/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://giuliobarl.github.io/projects/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/tags/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper1/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/papers/energy-gnome/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper2/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/papers/quantherm/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper3/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/papers/ml-awh/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/projects/repo2/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/papers/good-phys-variables/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/projects/repo1/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://giuliobarl.github.io/papers/libs/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/advanced-materials/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/projects/quantumthermal/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/artificial-intelligence/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/projects/energy-gnome/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/battery/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/projects/ml-awh/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/battery-models/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/projects/good-phys-variables/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/computational-chemistry/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/artificial-intelligence/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/dataset/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/atmospheric-water-harvesting/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/deep-learning/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/battery/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/energy-materials/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/battery-models/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/equivalent-circuit-model-ecm/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/deep-learning/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/feature-grouping/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/energy-materials/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/lithium-ion-batteries-lib/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/equivalent-circuit-model-ecm/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/machine-learning/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/feature-grouping/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/materials-science/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/heat-conduction/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/parameter-estimation/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/lithium-ion-batteries-lib/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/perovskite/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/machine-learning/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/physical-property-invariance/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/parameter-estimation/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/primitive-variable-analysis/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/perovskite/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/tags/thermoelectric/</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/physical-property-invariance/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper1/energy-gnome.pdf</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/primitive-variable-analysis/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper2/effective-good.pdf</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/quantum-circuit-ansatz/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 <url>
-  <loc>https://giuliobarl.github.io/papers/paper3/batteries.pdf</loc>
-  <lastmod>2024-12-26T16:22:37+00:00</lastmod>
-  <priority>0.51</priority>
+<loc>https://giuliobarl.github.io/tags/quantum-computing/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
 </url>
-
-
+<url>
+<loc>https://giuliobarl.github.io/tags/real-data-loading-/-encoding/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/tags/thermal-science/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/tags/thermoelectric/</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/tags/variational-quantum-algorithm/</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/papers/quantherm/QuanTherm.pdf</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/papers/good-phys-variables/effective-good.pdf</loc>
+<lastmod>2025-11-05T12:45:06+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://giuliobarl.github.io/papers/libs/batteries.pdf</loc>
+<lastmod>2025-11-05T12:45:07+00:00</lastmod>
+<priority>0.51</priority>
+</url>
 </urlset>

@@ -7,7 +7,7 @@ author: ["Paolo De Angelis", "Giulio Barletta", "Giovanni Trezza", "Pietro Asina
 description: "This paper presents the novel Energy-GNoME database and the related protocol. Published in Energy and AI, 2025." 
 summary: "This paper presents the novel Energy-GNoME database and the related protocol." 
 cover:
-    image: "illustration-light.png"
+    image: "egnome-blender.png"
     alt: "Energy-GNoME"
     relative: false
 editPost:
