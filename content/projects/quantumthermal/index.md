@@ -2,8 +2,7 @@
 title: "QuantumThermal" 
 date: 2025-11-05
 lastmod: 2025-11-05
-tags: ["Quantum Computing", "Thermal Science", "Heat Conduction", "Variational Quantum
-Algorithm", "Quantum Circuit Ansatz", "Real Data Loading / Encoding"]
+tags: ["Quantum Computing", "Thermal Engineering", "Heat Transfer", "Variational Quantum Eigensolver", "Real Noisy Quantum Hardware", "Quantum–classical Comparison"]
 author: ["SMaLL-PoliTo, Matteo Maria Piredda, Giulio Barletta"]
 description: "This repository contains the notebooks related to the publication Notes on Quantum Computing for Thermal Science" 
 summary: "This repository contains the notebooks related to the publication Notes on Quantum Computing for Thermal Science"  

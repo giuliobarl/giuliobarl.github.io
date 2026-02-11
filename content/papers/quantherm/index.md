@@ -1,9 +1,9 @@
 ---
-title: "Leveraging quantum computing for heat conduction analysis: A case study in thermal engineering" 
+title: "Leveraging quantum computing for heat conduction analysis: A case study in thermal engineering"
 date: 2026-02-10
 lastmod: 2026-02-10
-tags: ["quantum computing", "thermal engineering", "heat transfer", "variational quantum eigensolver", "real noisy quantum hardware", "quantum–classical comparison"]
-author: ["Pietro Asinari", "Matteo Maria Piredda", "Giulio Barletta", "Paolo De Angelis", "Nada Alghamdi", "Giovanni Trezza", "Marina Provenzano", "Matteo Fasano", "Eliodoro Chiavazzo".]
+tags: ["Quantum Computing", "Thermal Engineering", "Heat Transfer", "Variational Quantum Eigensolver", "Real Noisy Quantum Hardware", "Quantum–classical Comparison"]
+author: ["Pietro Asinari", "Matteo Maria Piredda", "Giulio Barletta", "Paolo De Angelis", "Nada Alghamdi", "Giovanni Trezza", "Marina Provenzano", "Matteo Fasano", "Eliodoro Chiavazzo"]
 description: "This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science. Published in Case Studies in Thermal Engineering, 2026" 
 summary: "This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science." 
 cover:
@@ -30,9 +30,9 @@ The rapid development of quantum computing is creating new opportunities in ther
 
 ---
 
-##### Figure 1: Efficient ansatz (3 qubit, 24 parameters = four layers with six parameters each or, equivalently, eight parameters per qubit).
+##### Figure 1: Schematic representation of the key features of the VQE algorithm. The QPU denotes the quantum processing unit, while the CPU denotes the classical processing unit.
 
-![](quantum-vqe.pdf)
+![](quantum-vqe.png)
 
 ---
 
