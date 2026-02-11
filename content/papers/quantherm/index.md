@@ -1,57 +1,62 @@
 ---
-title: "Notes on Quantum Computing for Thermal Science" 
-date: 2025-03-24
-lastmod: 2025-05-13
-tags: ["quantum computing", "thermal science", "heat conduction", "variational quantum algorithm", "quantum circuit ansatz", "real data loading / encoding"]
-author: ["Pietro Asinari", "Nada Alghamdi", "Paolo De Angelis", "Giulio Barletta", "Giovanni Trezza", "Marina Provenzano", "Matteo Maria Piredda", "Matteo Fasano", "Eliodoro Chiavazzo"]
-description: "This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Preprint published on arXiv, 2025." 
-summary: "This document explores the potential of quantum computing for solving linear systems of interest in engineering." 
+title: "Leveraging quantum computing for heat conduction analysis: A case study in thermal engineering" 
+date: 2026-02-10
+lastmod: 2026-02-10
+tags: ["quantum computing", "thermal engineering", "heat transfer", "variational quantum eigensolver", "real noisy quantum hardware", "quantum–classical comparison"]
+author: ["Pietro Asinari", "Matteo Maria Piredda", "Giulio Barletta", "Paolo De Angelis", "Nada Alghamdi", "Giovanni Trezza", "Marina Provenzano", "Matteo Fasano", "Eliodoro Chiavazzo".]
+description: "This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science. Published in Case Studies in Thermal Engineering, 2026" 
+summary: "This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science." 
 cover:
     image: "quantherm.png"
     alt: "QuanTherm"
     relative: false
 editPost:
-    URL: "https://arxiv.org/abs/2503.19109"
-    Text: "arXiv"
+    URL: "https://www.sciencedirect.com/science/article/pii/S2214157X26001759"
+    Text: "Case Studies in Thermal Engineering"
 
 ---
 
----
+<!-- ---
 
 ##### Download
 
 + [Paper](QuanTherm.pdf)
 
----
+--- -->
 
 ##### Abstract
 
-This document explores the potential of quantum computing for solving linear systems of interest in engineering. In particular, we focus on heat conduction as a paradigmatic example in thermal science. Conceived as a living document, it will be continuously updated with experimental findings and insights for the research community in Thermal Science. By experiments, we refer both to the search for the most effective algorithms and to the performance of real quantum hardware. Those fields are currently evolving rapidly, driving a technological race to define the best architectures. The development of novel algorithms
-for engineering problems aims at harnessing the unique strengths of quantum computing. Expectations are high, as users seek concrete evidence of quantum supremacy – a true game changer for engineering applications. Among all heat transfer mechanisms (conduction, convection, radiation), we start with conduction as a paradigmatic test case in the field being characterized by a rich mathematical foundation for our investigations.
+The rapid development of quantum computing is creating new opportunities in thermal sciences for the exploration and simulation of heat and mass transfer phenomena, turbulent flows, as well as plasma and multiphase flows in porous media. In particular, high-fidelity simulations of turbulent flows could benefit from quantum computing through the acceleration of linear algebra solvers. However, the practical performance of current quantum computers remains limited. Major challenges include noise and fault tolerance—or, at least, effective error mitigation—as well as the development of improved quantum and hybrid quantum–classical algorithms, the tuning of algorithms for specific problem classes, and the management of both cloud-based platforms and physical quantum hardware. This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science. Innovative algorithmic strategies are discussed, supported by numerical and experimental case studies, and the performance of real quantum hardware (IQM Lagrange at Torino) is compared with classical computational methods. In particular, preliminary investigations on this quantum hardware yielded a mean nodal outcome error of up to 14% for the problem under consideration. In the current Noisy Intermediate-Scale Quantum (NISQ) era, these numerical results obtained on real quantum hardware are preliminary but provide valuable insights for guiding further hardware development, an effort that also requires advanced metrology. The paper highlights opportunities, current challenges, and future directions, with a particular emphasis on engineering applications.
 
 ---
 
 ##### Figure 1: Efficient ansatz (3 qubit, 24 parameters = four layers with six parameters each or, equivalently, eight parameters per qubit).
 
-![](ansatz.png)
+![](quantum-vqe.pdf)
 
 ---
 
 ##### Citation
 
-Asinari, P.; Alghamdi, N.; De Angelis, P.; Barletta, G.; Trezza, G.; Provenzano, M.; Piredda, M. M.; Fasano, M.; Chiavazzo, E "Notes on Quantum Computing for Thermal Science". arXiv May 13, 2025. https://doi.org/10.48550/arXiv.2503.19109.
+Pietro Asinari, Matteo Maria Piredda, Giulio Barletta, Paolo De Angelis, Nada Alghamdi, Giovanni Trezza, Marina Provenzano, Matteo Fasano, Eliodoro Chiavazzo,
+Leveraging quantum computing for heat conduction analysis: A case study in thermal engineering,
+Case Studies in Thermal Engineering,
+2026,
+107813,
+ISSN 2214-157X,
+https://doi.org/10.1016/j.csite.2026.107813.
 
 ```BibTeX
-@misc{asinari_notes_2025,
-	title = {Notes on {Quantum} {Computing} for {Thermal} {Science}},
-	url = {http://arxiv.org/abs/2503.19109},
-	doi = {10.48550/arXiv.2503.19109},
-	urldate = {2025-05-14},
-	publisher = {arXiv},
-	author = {Asinari, Pietro and Alghamdi, Nada and Angelis, Paolo De and Barletta, Giulio and Trezza, Giovanni and Provenzano, Marina and Piredda, Matteo Maria and Fasano, Matteo and Chiavazzo, Eliodoro},
-	month = may,
-	year = {2025},
-	note = {arXiv:2503.19109},
-	keywords = {Physics - Computational Physics, Quantum Physics},
+@article{ASINARI2026107813,
+	title = {Leveraging quantum computing for heat conduction analysis: A case study in thermal engineering},
+	journal = {Case Studies in Thermal Engineering},
+	pages = {107813},
+	year = {2026},
+	issn = {2214-157X},
+	doi = {https://doi.org/10.1016/j.csite.2026.107813},
+	url = {https://www.sciencedirect.com/science/article/pii/S2214157X26001759},
+	author = {Pietro Asinari and Matteo Maria Piredda and Giulio Barletta and Paolo {De Angelis} and Nada Alghamdi and Giovanni Trezza and Marina Provenzano and Matteo Fasano and Eliodoro Chiavazzo},
+	keywords = {Quantum computing, Thermal engineering, Heat transfer, Quantum computing Variational quantum eigensolver, Real noisy quantum hardware, Quantum–classical comparison},
+	abstract = {The rapid development of quantum computing is creating new opportunities in thermal sciences for the exploration and simulation of heat and mass transfer phenomena, turbulent flows, as well as plasma and multiphase flows in porous media. In particular, high-fidelity simulations of turbulent flows could benefit from quantum computing through the acceleration of linear algebra solvers. However, the practical performance of current quantum computers remains limited. Major challenges include noise and fault tolerance—or, at least, effective error mitigation—as well as the development of improved quantum and hybrid quantum–classical algorithms, the tuning of algorithms for specific problem classes, and the management of both cloud-based platforms and physical quantum hardware. This work presents a case study on heat conduction as a paradigmatic test case to promote the exploration of quantum computing for thermal science. Innovative algorithmic strategies are discussed, supported by numerical and experimental case studies, and the performance of real quantum hardware (IQM Lagrange at Torino) is compared with classical computational methods. In particular, preliminary investigations on this quantum hardware yielded a mean nodal outcome error of up to 14% for the problem under consideration. In the current Noisy Intermediate-Scale Quantum (NISQ) era, these numerical results obtained on real quantum hardware are preliminary but provide valuable insights for guiding further hardware development, an effort that also requires advanced metrology. The paper highlights opportunities, current challenges, and future directions, with a particular emphasis on engineering applications.}
 }
 ```
