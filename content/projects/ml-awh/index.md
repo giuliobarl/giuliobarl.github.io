@@ -20,6 +20,7 @@ editPost:
 
 ##### Related
 
++ [Paper](https://doi.org/10.1016/j.jwpe.2025.107476)
 + [Online dataset](https://doi.org/10.5281/zenodo.10533012)
 
 ---
@@ -45,7 +46,7 @@ In particular:
 
 ##### Citation
 
-Barletta, G.; Moitra, S.; Derrible, S. ; Mathew, A. ; Nair, A. M. ; Megaridis, C. M. Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane. J. Water Process Eng., 2025, https://doi.org/10.1016/j.jwpe.2025.107476
+Barletta, G.; Moitra, S.; Derrible, S.; Mathew, A.; Nair, A. M.; Megaridis, C. M. Exploring machine learning models to predict atmospheric water harvesting with an ion deposition membrane. J. Water Process Eng., 2025, https://doi.org/10.1016/j.jwpe.2025.107476
 
 ```BibTeX
 @article{BARLETTA2025107476,
